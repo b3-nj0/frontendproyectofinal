@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+
+#card-group2{
+margin-top: 5rem;
+}
+#imgcarouselult
+{
+ width:600px ;
+ height: 300px;
+}
+#botoncito
+{
+    border-radius: 15%;
+}
+#paquetetours
+{
+  width: 100%;
+ 
+}
+#grupodia1{
+    width: 50%;
+    margin-left: 220px;
+    margin-top: 50px;
+    
+}
+#grupodia2{
+    width: 50%;
+    margin-left: 0px;
+    margin-top: 50px;
+    
+}
+
+#paquetedia1 {
+    margin-top:50px;
+    justify-content: center;
+    display:flex;
+    
+    padding-bottom: 100px; 
+}
+#paquetedia2 {
+    margin-top:50px;
+    justify-content: center;
+    display:flex;
+    
+    padding-bottom: 100px; 
+}
+
+.wrapper-local {
+    width:30%;
+    margin-left:100px;
+    padding-top:150px;
+}
+.wrapper-local2 {
+    width:30%;
+    margin-left:100px;
+    padding-top:150px;
+}
+
+#contenidopaquete
+{
+  font-size: 16px;
+}
+ #menu a, button{
+     font-size: 18px ;
+     font-weight: 600;
+
+ }
+ #menu a{
+    color:#3f3f3f;
+
+}
+#paquete {
+    margin-top:50px;
+    
+    display:flex;
+    justify-content: center; 
+    padding-bottom: 300px; 
+}
+#seccion
+{
+margin-top:100px;
+}
+#seccion2
+{
+margin-top:0px;
+}
+#seccion3
+{
+margin-top:100px;
+}
+#bg-contactos{
+    position:relative;
+    top: -150px;
+} 
+
+ #seccion-contacto
+ {
+    margin-top: 200px;
+    background-color: #212529;
+    min-height:500px;
+    position:relative;
+}
+
+#contenedor-formulario{
+    position:absolute;
+    top:30%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background: #fbfafa;
+    border-radius:5px;
+
+}
+
+#titulo-formulario {
+    color: #3f3f3f;
+}
+
+footer {
+    background: #212529;
+    min-height: 100px;;
+}
+footer p{
+    color:#f3f3f3;
+    text-align:center;
+}
+#iconos  i {
+    font-size: 26px;
+    padding: 0 8px;
+    color:#f3f3f3;
+}
+@media (max-width:1200px){
+    #intro, #equipo {
+        width:100% ;
+        margin:0px;
+    }
+
+    #local {
+        flex-wrap: wrap;
+        padding-top:30px;
+   }
+   .wrapper-local {
+    width:90%;
+    margin:auto;
+    padding-top:50px;    
+   }
+
+}
+@media (max-width:768px) {
+
+    #contenidopaquete
+{
+  font-size: 8px;
+}
+    #intro, #equipo{
+        width:90%;
+        margin:auto;
+    }
+
+
+    #img-equipo{
+        max-height:20rem ;
+        width:90%;
+    }
+    .wrapper-local {
+        width:90%;
+        margin:auto;
+        padding-top:50px; 
+        margin-left: 50px ;   
+    }
+    #local {
+        flex-wrap: wrap;
+    }
+    .mapa {
+        width: 100%; 
+        height:100%;
+    }
+    #bg-contactos{
+        top: -120px;
+    }
+    #mapagoogle
+    {
+        margin-left: 50px;
+        width:680px ;
+        height:450px;
+      border-radius: 40%;
+    }
+
+}
+@media (max-width: 576px) {
+    #servicios-fila-2 {
+        width:100%;
+    }
+    #servicios-fila-1 {
+        width:100% ;
+    }
+
+    .icono-wrap{
+        flex-wrap:wrap ;
+        justify-content: center ;
+        text-align: center;
+    }
+}
